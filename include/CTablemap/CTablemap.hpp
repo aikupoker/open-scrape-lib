@@ -2,7 +2,6 @@
 #define INC_CTABLEMAP_H
 
 #include <map>
-#include "CTransform/hash/stdint.hpp"
 #include "CTransform/pdiff/RGBAImage.hpp"
 #include "CCritSec/CCritSec.hpp"
 

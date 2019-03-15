@@ -1,8 +1,6 @@
 #ifndef INC_CTRANSFORM_H
 #define INC_CTRANSFORM_H
 
-
-#include "CTransform/hash/stdint.hpp"
 #include "CTransform/hash/lookup3.hpp"
 #include "CTransform/pdiff/CompareArgs.hpp"
 #include "CTransform/pdiff/Metric.hpp"
