@@ -31,7 +31,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES GNU)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
 endif()
 
-add_compile_definitions(YEUX_V2_API)
+add_compile_definitions(YEUX_V2_EXPORTS)
 
 include_directories(include)
 

@@ -23,7 +23,7 @@ float tvi(float adaptation_luminance)
   // returns the threshold luminance given the adaptation luminance
   // units are candelas per meter squared
 
-  float log_a, r, result; 
+  float log_a, r;
   log_a = log10f(adaptation_luminance);
 
   if (log_a < -3.94f) {
@@ -45,12 +45,12 @@ float tvi(float adaptation_luminance)
 // given the cycles per degree (cpd) and luminance (lum)
 float csf(float cpd, float lum)
 {
-  float a, b, result; 
+  float a, b, result;
   
   a = 440.0f * powf((1.0f + 0.7f / lum), -0.2f);
   b = 0.3f * powf((1.0f + 100.0f / lum), 0.15f);
     
-  result = a * cpd * expf(-b * cpd) * sqrtf(1.0f + 0.06f * expf(b * cpd)); 
+  result = a * cpd * expf(-b * cpd) * sqrtf(1.0f + 0.06f * expf(b * cpd));
   
   return result;
 }
