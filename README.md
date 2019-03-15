@@ -11,8 +11,6 @@ OpenScrape is a powerful and very useful tool when we work to parse a text in a 
 You will need to have installed following dependecies:
 
 * CMake. If you don't have it installed, just go to this [page](https://cmake.org/download/) and download latest stable version.
-* Python 3.
-* Conan (with Pip).
 
 If you need to verify that you have CMake installed, just write following command:
 
